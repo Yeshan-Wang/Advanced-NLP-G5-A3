@@ -25,3 +25,7 @@ The script loads an already fine-tuned model produced by train.py and makes pred
 
 
 ## main.py
+The main() function in main.py is the entry point for executing the program. When the main() function is called, it performs the following steps:
+- Calls the read_josn_srl() function twice to read the data from two files, "en_ewt-up-train.conllu" and "en_ewt-up-test.conllu".
+- Specifies the paths of the preprocessed data files, "train.jsonl" and "test.jsonl", and calls the train() function to train the model using the training data and validate it using the test data.
+- Calls the predict() function to predict the labels of the test data.
