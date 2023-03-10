@@ -10,8 +10,6 @@ The code was carried out by Payam Fakhraie and Yeshan Wang during the course ‘
 - tabulate==0.8.9
 - seqeval==1.2.2
 
-**All code and notebooks should be run in the following order:**
-
 ## conllu_to_jsonl.py
 The script splits each sentence into propositions based on predicates from the original data (so each instance has a single labeled argument structure) and save as corresponding json files in the data directory:
 - data/preprocessed data/train.jsonl
@@ -22,3 +20,8 @@ The script which is used to fine-tune the BERT model on the training set.
 
 ## predict.py
 The script loads an already fine-tuned model produced by train.py and makes predictions on the test set.
+
+## bert_utils.py
+
+
+## main.py
