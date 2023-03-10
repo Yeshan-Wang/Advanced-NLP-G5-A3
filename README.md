@@ -1,5 +1,5 @@
 # Advanced-NLP-G5-A3
-The code was carried out by Payam Fakhraie and Yeshan Wang during the course ‘Advanced NLP' taught by Luis Morgado da Costa and Jose Angel Daza at VU Amsterdam.
+The code was carried out by Payam Fakhraie, Yeshan Wang, Sophie van Duin, Romera Voerman during the course ‘Advanced NLP' taught by Luis Morgado da Costa and Jose Angel Daza at VU Amsterdam.
 
 ## REQUIREMENTS
 - torch==1.7.1 
