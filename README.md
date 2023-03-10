@@ -22,7 +22,7 @@ The script which is used to fine-tune the BERT model on the training set.
 The script loads an already fine-tuned model produced by train.py and makes predictions on the test set.
 
 ## bert_utils.py
-
+bert_utils is a helper functions for loading and preprocessing data for use with the BERT model. The module defines functions for converting word pieces to tokens, expanding text to word pieces using a BERT tokenizer, and converting data to tensors. The module also contains functions for getting the torch device and padding sequences.
 
 ## main.py
 The main() function in main.py is the entry point for executing the program. When the main() function is called, it performs the following steps:
